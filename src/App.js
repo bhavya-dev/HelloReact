@@ -6,18 +6,21 @@ import MyGreeting from './components/Greeting'
 import WelcomeTopic from './components/WelcomeTopic'
 import DestructuringFunctional from './components/DestructuringFunctional';
 import DestructuringClass from './components/DestructuringClass';
+import ParentProp from './components/ParentProp';
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-      <HelloWorld></HelloWorld>
+      {/* <HelloWorld></HelloWorld>
       <MyGreeting name="Bhavya">
         <p>these are props</p>
       </MyGreeting>
       <DestructuringFunctional name="Mahi" topic="destructuringfunctional" greet="welcome"></DestructuringFunctional>
       <WelcomeTopic></WelcomeTopic>
-      <DestructuringClass name="krishna" topic="destructuringClass" greet="Welcomedestructuring"></DestructuringClass>
+      <DestructuringClass name="krishna" topic="destructuringClass" greet="Welcomedestructuring"></DestructuringClass> */}
+      <ParentProp></ParentProp>
+      
       </div>
     )
   }
