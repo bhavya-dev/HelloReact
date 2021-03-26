@@ -7,6 +7,7 @@ import WelcomeTopic from './components/WelcomeTopic'
 import DestructuringFunctional from './components/DestructuringFunctional';
 import DestructuringClass from './components/DestructuringClass';
 import ParentProp from './components/ParentProp';
+import UserLogging from './components/UserLogging';
 
 class App extends Component{
   render(){
@@ -20,6 +21,7 @@ class App extends Component{
       <WelcomeTopic></WelcomeTopic>
       <DestructuringClass name="krishna" topic="destructuringClass" greet="Welcomedestructuring"></DestructuringClass> */}
       <ParentProp></ParentProp>
+      <UserLogging></UserLogging>
       
       </div>
     )
